@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://fonts.googleapis.com/css?family=Akronim|Black+Ops+One|Dancing+Script|Orbitron|Trade+Winds&display=swap" rel="stylesheet"> 
+	<style type="text/css">
+		*{
+			margin: 0;
+			cursor: pointer;
+			position: all;
+		}
+		.container{
+			position: absolute;
+			transform: translate(-50%, -50%);
+			top: 50%;
+			left:50%;
+			background-color: white;
+			text-align: center;
+			border-radius: 16px;
+		}
+		strong{
+			color: white;
+			text-decoration:;
+			background-color: black;
+			font-size: 3em;
+			position: absolute;
+			font-family: orbitron;
+			transform: translate(-50%, -50%);
+			top: 10%;
+			left:50%;
+			word-spacing: 0.5em;
+			width: 70vw;
+			text-align: center;
+
+		}
+
+		button{
+			font-size: 1.5rem;
+			margin:1rem;
+			background-color:#2f7bed;
+			color: white;
+			padding: .3em;
+			border-radius: 10px;
+			border:solid black 1px;
+			font-family: orbitron;
+		}
+		button:hover{
+			background-color:  #24d461;
+		}
+		input{
+			font-size: 1.5em;
+			margin:10px; 
+			width: %;
+			border-radius: 8px;
+			padding-left: 5px;
+		}
+		.Signup-title{
+			font-family: orbitron;
+			color: white;
+			width: 100%;
+			background-color: black;
+			padding: 2px 0 2px 0;
+			font-size: 2em;
+			border-radius: 16px 16px 0 0;
+		}
+		#redirect{
+			color: #2f7bed;
+			text-decoration: none;
+			text-align: center;
+			font-size: 1.1em;
+
+		}
+		#redirect:hover{
+			color:  #24d461;
+			font-size: 1.2em;
+		}
+
+	</style>
+	<title>Dashboard</title>
+</head>
+<body>
+	<img src="bg-IMG.gif" style="width: 100vw; height: 100vh;">
+	<strong> Code Demo Dashboard </strong>
+	<div class="container">
+		<form>
+			<div class="Signup-title"><i>SignUp</i></div>
+			<br>
+			<input type="email" name="Email" placeholder="Email Id"><br>
+			<input type="password" name="password" placeholder="Set Password"><br>
+			<a href="#" id="redirect">already a user? Login</a><br>
+			<button>Signup</button><br>
+
+		</form>
+	</div>
+</body>
+</html>
