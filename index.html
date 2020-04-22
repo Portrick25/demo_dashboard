@@ -1,95 +1,184 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Akronim|Black+Ops+One|Dancing+Script|Orbitron|Trade+Winds&display=swap" rel="stylesheet"> 
-	<style type="text/css">
-		*{
-			margin: 0;
-			cursor: pointer;
-			position: all;
-		}
-		.container{
-			position: absolute;
-			transform: translate(-50%, -50%);
-			top: 50%;
-			left:50%;
-			background-color: white;
-			text-align: center;
-			border-radius: 16px;
-		}
-		strong{
-			color: white;
-			text-decoration:;
-			background-color: black;
-			font-size: 3em;
-			position: absolute;
-			font-family: orbitron;
-			transform: translate(-50%, -50%);
-			top: 10%;
-			left:50%;
-			word-spacing: 0.5em;
-			width: 70vw;
-			text-align: center;
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-		}
-
-		button{
-			font-size: 1.5rem;
-			margin:1rem;
-			background-color:#2f7bed;
-			color: white;
-			padding: .3em;
-			border-radius: 10px;
-			border:solid black 1px;
-			font-family: orbitron;
-		}
-		button:hover{
-			background-color:  #24d461;
-		}
-		input{
-			font-size: 1.5em;
-			margin:10px; 
-			width: %;
-			border-radius: 8px;
-			padding-left: 5px;
-		}
-		.Signup-title{
-			font-family: orbitron;
-			color: white;
-			width: 100%;
-			background-color: black;
-			padding: 2px 0 2px 0;
-			font-size: 2em;
-			border-radius: 16px 16px 0 0;
-		}
-		#redirect{
-			color: #2f7bed;
-			text-decoration: none;
-			text-align: center;
-			font-size: 1.1em;
-
-		}
-		#redirect:hover{
-			color:  #24d461;
-			font-size: 1.2em;
-		}
-
-	</style>
 	<title>Dashboard</title>
 </head>
 <body>
-	<img src="bg-IMG.gif" style="width: 100vw; height: 100vh;">
-	<strong> Code Demo Dashboard </strong>
-	<div class="container">
+<div class="template">
+	<div class="brand">
+	  <a href="#" class="active" id="nav-content1">CODE IOT Dashboard</a>
+	  <form method="get" class="search-bar">
+		  <div class="search-bar-content">	
+			  <input type="text" name="">
+			  <button>search</button>
+		  </div>
+	  </form>
+	</div>
+	<div class="vertical-menu">
+	  <button onclick = "myFunction1()">Login</button>
+	  <button onclick = "myFunction2()">Register</button>
+	  <button onclick = "myFunction3()">IOT Graphs</button>
+	  <button onclick = "myFunction4()">Contact</button>
+	  <button onclick = "myFunction5()">Our Blogs</button>
+	</div>
+</div>
+<div class="container" id="blogs">
+    <div class="sub-container">
+    	<img src="bg-IMG.gif" class="blog-img">
+		<strong> Code Demo Dashboard </strong>
+	</div>
+</div>
+<div class="container1" id="Login">
+    <div class="containerr">
 		<form>
 			<div class="Signup-title"><i>SignUp</i></div>
 			<br>
 			<input type="email" name="Email" placeholder="Email Id"><br>
 			<input type="password" name="password" placeholder="Set Password"><br>
-			<a href="#" id="redirect">already a user? Login</a><br>
-			<button>Signup</button><br>
+			<a href="#" id="redirect">New? Register</a><br>
+			<button>Login</button><br>
 
 		</form>
 	</div>
+</div>
+<div class="container2" id="Signup">
+    <div class="sub-container">
+    	<div class="containerr">
+			<form>
+				<div class="Signup-title"><i>SignUp</i></div>
+				<br>
+				<input type="email" name="Email" placeholder="Email Id"><br>
+				<input type="password" name="password" placeholder="Set Password"><br>
+				<a href="#" id="redirect">already a user? Login</a><br>
+				<button>Signup</button><br>
+			</form>
+		</div>
+	</div>
+</div>
+
+   
+<div class="container3" id="IOT">
+    <div class="sub-container"></div>
+</div>
+
+<div class="container4" id="contact">
+    <div class="sub-container"></div>
+</div>
+
+<div class="container5" id="Our-Blog">
+    
+</div>
+
+
+                                            
+
+
+                                            <!-- javascript function  --> 
+
+
+
+
+
+<script>
+    function myFunction1() {
+          document.getElementById("Login").disabled = true;
+      var a = document.getElementById("Login");
+      var b = document.getElementById("Signup");
+      var c = document.getElementById("IOT");
+      var d = document.getElementById("contact");
+      var e = document.getElementById("Our-Blog");
+      var f = document.getElementById("blogs");
+      if (a.style.display === "none") {
+        a.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+        f.style.display = "none";
+      }else {
+    f.style.display = "";
+
+  }
+    }
+
+    function myFunction2() {
+      var a = document.getElementById("Login");
+      var b = document.getElementById("Signup");
+      var c = document.getElementById("IOT");
+      var d = document.getElementById("contact");
+      var e = document.getElementById("Our-Blog");
+      var f = document.getElementById("blogs");
+      if (b.style.display === "none") {
+        b.style.display = "block";
+        a.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+      }else {
+    b.style.display = "none";
+  }
+    }
+
+    function myFunction3() {
+      var a = document.getElementById("Login");
+      var b = document.getElementById("Signup");
+      var c = document.getElementById("IOT");
+      var d = document.getElementById("contact");
+      var e = document.getElementById("Our-Blog");
+      var f = document.getElementById("blogs");
+      if (c.style.display === "none") {
+        c.style.display = "block";
+        b.style.display = "none";
+        a.style.display = "none";
+        d.style.display = "none";
+        e.style.display = "none";
+      }else {
+    c.style.display = "none";
+  }
+    }
+
+    function myFunction4() {
+      var a = document.getElementById("Login");
+      var b = document.getElementById("Signup");
+      var c = document.getElementById("IOT");
+      var d = document.getElementById("contact");
+      var e = document.getElementById("Our-Blog");
+      var f = document.getElementById("blogs");
+      if (d.style.display === "none") {
+        d.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        a.style.display = "none";
+        e.style.display = "none";
+      }else {
+    d.style.display = "none";
+  }
+    }
+
+    function myFunction5() {
+      var a = document.getElementById("Login");
+      var b = document.getElementById("Signup");
+      var c = document.getElementById("IOT");
+      var d = document.getElementById("contact");
+      var e = document.getElementById("Our-Blog");
+      var f = document.getElementById("blogs");
+      if (e.style.display === "none") {
+        e.style.display = "block";
+        b.style.display = "none";
+        c.style.display = "none";
+        d.style.display = "none";
+        a.style.display = "none";
+      }else {
+    e.style.display = "none";
+  }
+    }
+  
+</script>
 </body>
 </html>
