@@ -1,0 +1,292 @@
+*{
+	margin: 0;
+}
+
+.vertical-menu {
+  width: 20%; /* Set a width if you like */
+  height: 100vh;
+  top: 12%;
+  text-align: ;
+  background-color: black;
+}
+
+
+
+.vertical-menu button {
+  background-color: black; /* Grey background color */
+  color: white; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  font-family: 'Orbitron';
+  top:;
+  font-size: 2em;
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+  border:0;
+}
+
+.search-bar{
+	float: right;
+}
+.vertical-menu button:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.brand{
+	width: 100vw;
+	background-color: black;
+}
+.brand a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  text-decoration: none;
+  color: white;
+  width: 60vw;
+  height: 10vh;
+  margin-left:;
+}
+.template{
+	position: fixed;
+	z-index: 0;
+}
+
+#nav-content1{
+		float: left;
+		background-color: black;
+		font-size: 2.5em;
+		font-family: 'Orbitron';
+		padding-left:2%;
+		margin-bottom: %;
+		}
+
+
+.search-bar{
+	width: 38vw;
+	height:10vh;
+	background-color: black;
+	text-align:center;
+	margin-top: ;
+
+}
+.search-bar-content{
+	margin-top: %;
+}
+
+.search-bar-content input{
+	font-size: 1.2em;
+	font-family: 'Orbitron';
+	padding: 2px;
+	border-radius: 6px;
+	
+}
+
+
+.search-bar-content button{
+	font-size: 1.2em;
+	color: white;
+	font-family: 'Orbitron';
+	background-color: black;
+	border-radius: 6px;
+	padding: 4px;
+	border:solid 1px white;
+
+}
+.search-bar-content button:hover{
+	font-size: 1.2em;
+	font-family: 'Orbitron';
+	background-color: #34cfba;
+	color: white;
+
+}
+.post-form{
+	position: relative;
+	width: auto;
+	height: auto;
+	float: left;
+	border-radius: 16px;
+	border:solid black 1px;
+	padding: 2%;
+}
+
+.text-field{
+	width: %;
+	height: ;
+	float: right;
+}
+
+.post-button{
+	float: right;
+	margin:1em;
+
+}
+#post-button{
+	font-size: 2em;
+}
+
+
+
+
+
+
+
+
+/*  container  */
+
+
+.container{
+    position: absolute;
+    float: right;
+    margin-top:5%;
+    margin-left:20% ;
+    width:%;
+ 
+    z-index:1 ;
+}
+
+.container1{
+    position: absolute;
+    float: right;
+    margin-top: 8%;
+    margin-left: 21% ;
+    width:76%;
+ 
+    z-index:1 ;
+}
+.container2{
+    position: absolute;
+    float: right;
+    margin-top: 8%;
+    margin-left: 21% ;
+    width:76%;
+ 
+    z-index:1 ;
+}
+
+.container3{
+    position: absolute;
+    float: right;
+    margin-top: 8%;
+    margin-left: 22% ;
+    width:76%;
+ 
+    z-index:1 ;
+}
+
+.container4{
+    position: absolute;
+    float: right;
+    margin-top: 8%;
+    margin-left: 22% ;
+    width:76%;
+ 
+    z-index:1 ;
+}
+
+.container5{
+    position: absolute;
+    float: right;
+    margin-top:%;
+    margin-left: 22% ;
+    width:76%;
+ 
+    z-index:1 ;
+}
+
+
+.blog-img{
+    width:80vw;
+    height:90vh;
+    z-index: 0;
+}
+.likes-report-container{
+    position: all;
+    width: 100%;
+    font-size: 2em;
+    margin: auto;
+    border-top: solid black 1px;
+    z-index:0;
+}
+
+.icon{
+    color: green;
+    margin-left: 15%;
+    margin-right: 10%;
+    font-size: 0.8em;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    border: 0;
+    font-family: orbitron;
+}
+
+
+
+
+
+*{
+      margin: 0;
+      cursor: pointer;
+      position: all;
+    }
+    .containerr{
+      position: absolute;
+      margin-left: 50%;
+      margin-top: 25%;
+      background-color: white;
+      text-align: center;
+      border-radius: 16px;
+      transform: translate(-50%, -50%);
+    }
+    strong{
+      color: white;
+      text-decoration:;
+      background-color: black;
+      font-size: 3em;
+      position: absolute;
+      font-family: orbitron;
+      transform: translate(-50%, -50%);
+      top: 10%;
+      left:50%;
+      word-spacing: 0.5em;
+      width: 70vw;
+      text-align: center;
+
+    }
+
+    button{
+      font-size: 1.5rem;
+      margin:1rem;
+      background-color:#2f7bed;
+      color: white;
+      padding: .3em;
+      border-radius: 10px;
+      border:solid black 1px;
+      font-family: orbitron;
+    }
+    button:hover{
+      background-color:  #24d461;
+    }
+    input{
+      font-size: 1.5em;
+      margin:10px; 
+      width: %;
+      border-radius: 8px;
+      padding-left: 5px;
+    }
+    .Signup-title{
+      font-family: orbitron;
+      color: white;
+      width: 100%;
+      background-color: black;
+      padding: 2px 0 2px 0;
+      font-size: 2em;
+      border-radius: 16px 16px 0 0;
+    }
+    #redirect{
+      color: #2f7bed;
+      text-decoration: none;
+      text-align: center;
+      font-size: 1.1em;
+
+    }
+    #redirect:hover{
+      color:  #24d461;
+      font-size: 1.2em;
+    }
